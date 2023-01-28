@@ -1,0 +1,2 @@
+# CW_SunAYokohama_Count
+日横iPhone班のチェックワークです。カウントアプリの作成を行います。
