@@ -26,18 +26,22 @@ class ViewController: UIViewController {
     
     @IBAction func tappedPlusButton(_ sender: Any) {
         count += 1
+        countLabel.text = String(count)
     }
     
     @IBAction func tappedMinusButton(_ sender: Any) {
         count -= 1
+        countLabel.text = String(count)
     }
     
     @IBAction func tappedTimesButton(_ sender: Any) {
         count*=2
+        countLabel.text = String(count)
     }
     
     @IBAction func tappedDividedButton(_ sender: Any) {
         count/=2
+        countLabel.text = String(count)
     }
 }
 
